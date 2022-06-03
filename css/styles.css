@@ -1,0 +1,103 @@
+.disclaimer {
+    display: none !important;
+}
+
+body {
+    background-color: rgb(35, 225, 255);
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    z-index: -1;
+}
+
+.page-header {
+    margin: auto;
+    z-index: 1;
+}
+
+.page-header-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.section-title {
+    color: #000;
+    margin: 2.5rem 0;
+    z-index: 1;
+}
+
+.title {
+    color: #000;
+}
+
+.subtitle {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: rgb(0, 50, 200);
+}
+
+a:hover,
+a:active {
+    color: rgb(255, 115, 0);
+}
+
+.text > * > * {
+    color: #000;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.box {
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 2.5rem;
+    margin-bottom: 2.5rem;
+    z-index: 1;
+    box-shadow: 10px 5px 5px #00000010;
+}
+
+.list {
+    padding: 7.5rem;
+    z-index: 1;
+}
+
+/*clouds*/
+
+div.cloud {
+    position: absolute;
+    border-radius: 1000rem;
+    z-index: 0;
+    box-shadow: 10px 5px 5px #00000010;
+}
+
+div.cloud-1 {
+    background-color: #dcdcdc;
+}
+
+div.cloud-2 {
+    background-color: #ececec;
+}
+
+div.cloud-3 {
+    background-color: #ededed;
+}
+
+div.cloud-4 {
+    background-color: #efefef;
+}
